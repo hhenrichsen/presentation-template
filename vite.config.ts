@@ -1,6 +1,5 @@
 import {defineConfig} from 'vite';
-import {viteStaticCopy} from 'vite-plugin-static-copy';
 
 export default defineConfig({
-  plugins: [],
+  base: process.env.REPO_NAME ? `/${process.env.REPO_NAME}/` : '/',
 });
