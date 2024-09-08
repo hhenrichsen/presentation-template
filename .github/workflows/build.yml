@@ -19,9 +19,13 @@ jobs:
     steps:
       - name: Checkout repo
         uses: actions/checkout@v3
+
+      - name: Checkout fonts
+        uses: actions/checkout@v3
         with:
+          repository: hhenrichsen/fonts
           token: ${{ secrets.FONTS_PAT }}
-          submodules: recursive
+          path: fonts
 
       - name: Setup Node
         uses: actions/setup-node@v3
