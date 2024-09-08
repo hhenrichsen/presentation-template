@@ -6,7 +6,10 @@ import '@catppuccin/palette/css/catppuccin.css';
 import './styles/catppuccin.css';
 import './styles/index.css';
 import '../fonts/fonts.css';
+
+import 'iconify-icon';
 import '@motion-canvas/player';
+
 import Reveal from 'reveal.js';
 
 const deck = new Reveal({
