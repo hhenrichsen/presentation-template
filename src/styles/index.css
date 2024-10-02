@@ -133,3 +133,13 @@ header {
     font-family: var(--r-heading-font);
     color: var(--ctp-mocha-overlay0);
 }
+
+presentation-timer {
+    background-color: var(--ctp-mocha-crust);
+    border-radius: 0.375rem;
+    display: inline-block;
+    font-family: 'Ellograph CF', monospace;
+    font-size: calc(4rem);
+    margin-top: 4rem;
+    padding: 1rem;
+}
